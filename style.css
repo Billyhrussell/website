@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'hattori_hanzolight';
+    src: url('file:///Users/billz/preworkassignments/Personal-website/fonts/Hattori_Hanzo-webfont.eot');
+    src: url('file:///Users/billz/preworkassignments/Personal-website/fonts/Hattori_Hanzo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('file:///Users/billz/preworkassignments/Personal-website/fonts/Hattori_Hanzo-webfont.woff2') format('woff2'),
+         url('file:///Users/billz/preworkassignments/Personal-website/fonts/Hattori_Hanzo-webfont.woff') format('woff'),
+         url('file:///Users/billz/preworkassignments/Personal-website/fonts/Hattori_Hanzo-webfont.ttf') format('truetype'),
+         url('file:///Users/billz/preworkassignments/Personal-website/fonts/Hattori_Hanzo-webfont.svg#hattori_hanzolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body{
+    font-family: 'hattori_hanzolight';
+    margin:0;
+    padding:0;
+    background-color: bisque;
+
+}
+#wrap{
+    width: 800px;
+    min-height: 100%;
+    margin:auto;
+    padding:auto;
+    color: black;
+}
+
+/* links in searchbar
+.searchbar a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    float:right;
+    padding: .5em;
+}
+*/
+/*billy russell
+.searchbar h3{
+    float: left;
+    padding: .5em;
+}
+*/
+
+.name{
+    font-family: 'hattori_hanzolight';
+    position: relative;
+    float: right;
+    top: 100px;
+    right: 135px;
+    font-size: xx-large;
+    letter-spacing: 10px;
+}
+/*
+.searchbar {
+    word-spacing: 100%;
+    float:left;
+    margin: auto;
+    width: 100%;
+
+}
+*/
+/* menu ul*/
+.menu ul,li{
+    position: relative;
+    z-index: 10;
+/*    float:right; */
+    top: 170px;
+    left: 350px;
+    list-style-position: inside;
+    list-style-type: none;
+    display: inline;
+    margin:10px;
+    color:#fff;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+/* searchbar list
+.searchbar li{
+    list-style-position: inside;
+    list-style-type: none;
+    display: inline;
+    margin:10px;
+    background-color: rgb(45, 45, 100);
+}
+*/
+
+/* about me */
+h3.about {
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+/* paragraphs */
+#container p{
+    text-align: left;
+    line-height: 20px;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+/* link to contact */
+.content a{
+    text-decoration: none;
+    color: black;
+}
+
+/* image of me */
+.content img{
+    display: block;
+    margin-left: 50px;
+
+
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
